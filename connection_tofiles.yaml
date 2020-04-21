@@ -1,0 +1,95 @@
+connections:
+#input connections from paramter files and netcdf forcing files
+    - input: ./src/cropfile_example.cab
+      output: cropfile
+      filetype: wofost
+    - input: ./src/soilfile_example.new
+      output: soilfile
+      filetype: wofost
+    - input: ./src/mgmtfile_example.dat
+      output: mgmtfile
+      filetype: wofost
+    - input: ./src/sitefile_example.sit
+      output: sitefile
+      filetype: wofost
+    - input: ./src/params_example.txt
+      output: params
+      filetype: wofost
+    - input: ./src/tasmin_watch_1970-1999.nc
+      output: TMIN
+      filetype: netcdf
+    - input: ./src/tasmax_watch_1970-1999.nc
+      output: TMAX
+      filetype: netcdf
+    - input: ./src/rsds_watch_1970-1999.nc
+      output: RADIATION
+      filetype: netcdf
+    - input: ./src/pr_gpcc_watch_1970-1999.nc
+      output: RAIN
+      filetype: netcdf
+    - input: ./src/sfcWind_watch_1970-1999.nc
+      output: WINDSPEED
+      filetype: netcdf
+    - input: ./src/hurs_watch_1970-1999.nc
+      output: VAPOUR
+      filetype: netcdf
+    - input: ./src/ILMASK.nc
+      output: mask
+      filetype: netcdf
+#output connections to CSV table
+    - input: Lat
+      output:
+    - input: Lon
+      output:
+    - input: Year
+      output:
+    - input: Day
+      output:
+    - input: DVS
+      output:
+    - input: WLV
+      output:
+    - input: WST
+      output:
+    - input: WSO
+      output:
+    - input: WRT
+      output:
+    - input: LAI
+      output:
+    - input: WSTR
+      output:
+    - input: SOILM
+      output:
+    - input: Rain
+      output:
+    - input: INF
+      output:
+    - input: RUNF
+      output:
+    - input: LOSS
+      output:
+    - input: NNI
+      output:
+    - input: PNI
+      output:
+    - input: KNI
+      output:
+    - input: SOILN
+      output:
+    - input: SOILP
+      output:
+    - input: SOILK
+      output:
+    - input: NUPT
+      output:
+    - input: PUPT
+      output:
+    - input: KUPT
+      output:
+    - input: NDEM
+      output:
+    - input: PDEM
+      output:
+    - input: KDEM
+      output:

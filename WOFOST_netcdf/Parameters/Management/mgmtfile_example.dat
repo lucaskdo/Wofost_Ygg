@@ -1,0 +1,43 @@
+**
+** Management data file for use with WOFOST 7.1, October 2019
+** Setting mgmt parameters for Illinois, United states
+
+
+
+* N Fertiliser N, Date   Amount (kg/ha)
+FERNTAB =      04-06     118.0  
+               05-05     118.0
+
+* P Fertiliser N, Date   Amount (kg/ha)
+FERPTAB =      04-06     49.0  
+               05-05     49.0
+
+* K Fertiliser N, Date   Amount (kg/ha)
+FERKTAB =      04-06     30.5  
+               05-05     30.5
+
+
+** Recovery fraction of applied fertiliser N, P and K
+NRFTAB  =     0.80
+
+PRFTAB  =     0.80
+
+KRFTAB  =     0.80
+            
+
+
+* Soil N, P and K mineralization
+NMINS    =   150.0 
+RTNMINS  =   0.025  
+
+PMINS   =     200. 
+RTPMINS  =   0.025  
+
+KMINS   =      200.  
+RTKMINS  =   0.025
+
+
+* irrigation water applied [cm]
+IRRTAB   =   01-01   0.0
+             12-31   0.0
+

@@ -1,0 +1,106 @@
+model:
+    name: WOFOST_C
+    language: make
+    args: 
+       - ./src/wofost.c          #specify the source file where the executable is along with other arguments needed to run on the command line
+    target_language: c
+    inputs:
+        - name: cropfile
+          dataype: wofost
+        - name: soilfile
+          datatype: wofost
+        - name: mgmtfile
+          datatype: wofost
+        - name: sitefile
+          datatype: wofost
+        - name: params
+          datatype: wofost
+        - name: TMIN
+          datatype: netcdf
+            units: K
+        - name: TMAX
+          datatype: netcdf
+            units: K
+        - name: RADIATION
+          datatype: netcdf
+            units: W*m**-2
+        - name: RAIN
+          datatype: netcdf
+            units: kg*m**-2*s**-1
+        - name: WINDSPEED
+          datatype: netcdf
+            units: m/s
+        - name: VAPOUR
+          datatype: netcdf
+        - name: mask
+          datatype: netcdf
+        
+    outputs:
+        - name: Lat
+          datatype:
+            units: lat
+        - name: Lon
+          datatype:
+            units: lon
+        - name: Year
+          datatype:
+            units: yr
+        - name: Day          #(DoY, currently passing date as unitless string)
+        - name: DVS
+        - name: WLV
+          datatype:
+            units: kg/ha
+        - name: WST
+          datatype:
+            units: kg/ha
+        - name: WSO
+          datatype:
+            units: kg/ha
+        - name: WRT
+          datatype:
+            units: kg/ha
+        - name: LAI
+        - name: WSTR
+        - name: SOILM
+        - name: Rain
+          datatype:
+            units: mm
+        - name: INF
+          datatype:
+            units: cm
+        - name: RUNF
+          datatype:
+            units: cm 
+        - name: LOSS
+          datatype:
+            units: cm
+        - name: NNI
+        - name: PNI
+        - name: KNI
+        - name: SOILN
+          datatype:
+            units: kg/ha
+        - name: SOILP
+          datatype:
+            units: kg/ha
+        - name: SOILK
+          datatype:
+            units: kg/ha
+        - name: NUPT
+          datatype:
+            units: kg/ha/day
+        - name: PUPT
+          datatype:
+            units: kg/ha/day
+        - name: KUPT
+          datatype:
+            units: kg/ha/day
+        - name: NDEM
+          datatype:
+            units: kg/ha/day
+        - name: PDEM
+          datatype:
+            units: kg/ha/day
+        - name: KDEM
+          datatype:
+            units: kg/ha/day

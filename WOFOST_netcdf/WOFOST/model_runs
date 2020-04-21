@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#running all scenario analysis model runs in sequence
+
+#hist runs
+#./wofost config/scenario_list_hist.txt config/scenario_meteolist_hist_gfdl.txt
+#./wofost config/scenario_list_hist.txt config/scenario_meteolist_hist_hadgem.txt
+#./wofost config/scenario_list_hist.txt config/scenario_meteolist_hist_ipsl.txt
+#./wofost config/scenario_list_hist.txt config/scenario_meteolist_hist_miroc.txt
+./wofost config/scenario_list_hist.txt config/scenario_meteolist_hist_noresm.txt
+
+#rcp4p5 runs
+#./wofost config/scenario_list_rcp45.txt config/scenario_meteolist_rcp45_gfdl.txt
+#./wofost config/scenario_list_rcp45.txt config/scenario_meteolist_rcp45_hadgem.txt
+#./wofost config/scenario_list_rcp45.txt config/scenario_meteolist_rcp45_ipsl.txt
+#./wofost config/scenario_list_rcp45.txt config/scenario_meteolist_rcp45_miroc.txt
+./wofost config/scenario_list_rcp45.txt config/scenario_meteolist_rcp45_noresm.txt
+
+#rcp8p5 runs
+#./wofost config/scenario_list_rcp85.txt config/scenario_meteolist_rcp85_gfdl.txt
+#./wofost config/scenario_list_rcp85.txt config/scenario_meteolist_rcp85_hadgem.txt
+#./wofost config/scenario_list_rcp85.txt config/scenario_meteolist_rcp85_ipsl.txt
+#./wofost config/scenario_list_rcp85.txt config/scenario_meteolist_rcp85_miroc.txt
+./wofost config/scenario_list_rcp85.txt config/scenario_meteolist_rcp85_noresm.txt

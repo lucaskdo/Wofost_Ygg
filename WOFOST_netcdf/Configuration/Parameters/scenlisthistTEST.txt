@@ -1,0 +1,15 @@
+
+** WOFOST FORCING CONFIGURATION for use with WOFOST-C Version 7.0, November 2019
+** Original configuration by Bram Droppers, updated by Lucas Do
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_maize_north_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_maize_north.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-10 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_maize_north_hist_1970-1999.dat
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_maize_mid_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_maize_mid.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-05 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_maize_mid_hist_1970-1999.dat
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_maize_south_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_maize_south.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-01 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_maize_south_hist_1970-1999.dat
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_soy_north_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_soy_north.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-24 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_soy_north_hist_1970-1999.dat
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_soy_mid_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_soy_mid.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-20 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_soy_mid_hist_1970-1999.dat
+
+/mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/ Crop/LucasDo/IL_soy_south_hist_1970-1999.cab Soil/LucasDo/ec5.new Management/LucasDo/IL_mgmt_soy_south.dat Site/LucasDo/Illinois_hist_1970-1999.site 04-15 0 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Output/LucasDo/MODEL_soy_south_hist_1970-1999.dat

@@ -1,0 +1,4 @@
+start       =  04-01
+Emergence   =  0
+StartYear   =  1970
+EndYear     =  1999

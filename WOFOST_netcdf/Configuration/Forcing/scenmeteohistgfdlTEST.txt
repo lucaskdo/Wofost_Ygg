@@ -1,0 +1,11 @@
+
+** WOFOST FORCING CONFIGURATION for use with WOFOST-C Version 7.0, November 2019
+** Original configuration by Bram Droppers, updated by Lucas Do
+
+/mnt/c/users/asus/Documents/ThesisWSG/Inputs/Meteodata/hist/ 1950 2005 /mnt/c/users/asus/Documents/ThesisWSG/WOFOST_netcdf/Parameters/Mask/LucasDo/domain_LucasDo2.nc
+tasmin_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 TMIN  tasminAdjust
+tasmax_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 TMAX  tasmaxAdjust
+rsds_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 RADIATION  rsdsAdjust
+pr_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 RAIN  prAdjust
+wind_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 WINDSPEED  windAdjust
+hurs_bced_1960_1999_gfdl-esm2m_hist_1950-2004.nc4 VAPOUR  hurs
